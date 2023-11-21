@@ -11,7 +11,10 @@
 <body>
     
     <div id="app">
-        
+        <button @click="generateEmail">Genera email random</button>
+        <ul>
+            <li v-for="email in randomEmail">{{ email }}</li>
+        </ul>
     </div>
 
 
